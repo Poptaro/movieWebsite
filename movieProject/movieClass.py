@@ -12,7 +12,7 @@ class Movie():
 #this function will allow user(s) to click on a movie poster and have the trailer pop up
     def show_trailer(self):
         """
-        This shoes trailer
+        This shows trailer
         :return:
         """
         webbrowser.open(self.trailer_youtube_url)
